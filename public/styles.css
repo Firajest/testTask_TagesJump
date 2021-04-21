@@ -1,0 +1,258 @@
+#root {
+  margin: 0 216px;
+}
+.mainPage__path {
+  margin: 32px 0;
+}
+.mainPage__path > a {
+  text-decoration: none;
+  color: #4f4f4fa1;
+  font-family: SF UI Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #828282;
+  border-radius: 34px;
+}
+.mainPage__title {
+width: 538px;
+height: 48px;
+left: 216px;
+top: 80px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+display: flex;
+align-items: center;
+font-feature-settings: 'ss04' on;
+color: #000000;
+border-radius: 34px;
+}
+.sorting-filters {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+.sorting-filters_hidden {
+  display: none;
+}
+.sorting-filters__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+}
+
+.sorting-filters__label {
+  margin-left: 16px;
+  width: 93px;
+  height: 18px;
+  left: 16px;
+  top: 0px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #4F4F4F;
+}
+.sorting-filters__options {
+  top: 24px;
+  bottom: 18px;
+  height: 40px;
+  left: 16px;
+  top: calc(50% - 21px/2 + 2.5px);
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+  padding-left: 11px;
+  background: #F2F2F2;
+  width: 100%;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.sorting-filters__option-wrapper {
+  position: relative
+}
+.sorting-filters__option-wrapper::after {
+  content: url("/pic/arrow.png");
+  display: flex;
+  margin-top: -28px;
+  margin-left: 88%;
+}
+
+.item > img {
+  width: 238px;
+  height: 237px;
+}
+.item {
+  display: flex;
+  margin-top: 41px;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.item__wrapper {
+  width: 336px;
+  height: 352px;
+  border: 1px #c0c0c044 solid;
+}
+.item__discount {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  width: 81px;
+  height: 24px;
+  left: 0px;
+  top: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.item__discount_visible {
+  width: 81px;
+  height: 24px;
+  left: 0px;
+  top: 8px;
+  background: #EB5757;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 20;
+}
+.item__discount_visible > p {
+  margin: auto;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  font-feature-settings: 'ss04' on;
+  color: #FFFFFF;
+}
+
+.item__image {
+  z-index: 10;
+  margin: -15px 49px 0;
+}
+
+.item__vendor-code {
+  font-family: SF UI Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #888888;
+  margin-left: 12px;
+  margin-top: 23px;
+}
+.item__vendor-code_hidden {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  margin-left: 12px;
+  margin-top: 46px;
+}
+
+.item__name {
+  margin-left: 12px;
+  margin-top: 6px;
+  font-family: SF UI Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.item__bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.item__price {
+  margin-left: 12px;
+  display: flex;
+  gap: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  align-self: baseline;
+}
+.item__price_old {
+  font-family: SF UI Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-decoration-line: line-through;
+  color: #888888;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-self: baseline;
+}
+.item__price_current {
+  font-family: SF UI Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  align-self: baseline;
+}
+.item__price_old::after {
+  content: '\20BD';
+  font-size: 16px;
+}
+.item__price_current::after {
+  content: '\20BD';
+  font-size: 16px;
+}
+
+.item__buttons {
+  display: flex;
+  margin-right: 12px;
+  gap: 27px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.item__favorite {
+  display: flex;
+  margin: 0 auto;
+  align-self: flex-start;
+  justify-self: flex-start;
+  height: 22px;
+}
