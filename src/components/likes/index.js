@@ -19,15 +19,16 @@ function Likes({ itemID }) {
   }
   const picStyle = {
     backgroundColor: liked? 'yellow' : '',
-  }
+  };
 
   useEffect(() => {
     if (localStorage.getItem("favourites") && JSON.parse(localStorage.getItem("favourites")).filter((el) => el === itemID).length) {
       setLiked(true);
     } else setLiked(false);
   }, [itemID]);
+
   return (
-    <img alt="pic" src={'/pic/heart.png'} style={picStyle} onClick={() => handleClick()} />
+    <img alt="pic" src={"pic/heart.png"} style={picStyle} onClick={() => handleClick()} />
   );
 };
 

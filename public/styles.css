@@ -95,7 +95,7 @@ select::-ms-expand {
   position: relative
 }
 .sorting-filters__option-wrapper::after {
-  content: url("/pic/arrow.png");
+  content: url("pic/arrow.png");
   display: flex;
   margin-top: -28px;
   margin-left: 88%;
