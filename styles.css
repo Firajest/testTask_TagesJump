@@ -6,12 +6,12 @@
     margin: 0 108px;
   }
 }
-@media screen and (max-width: 1139px) {
+@media screen and (max-width: 880px) {
   #root {
     margin: 0 54px;
   }
 }
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 730px) {
   #root {
     margin: 0;
   }
