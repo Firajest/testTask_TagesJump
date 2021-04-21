@@ -8,11 +8,6 @@
 }
 @media screen and (max-width: 880px) {
   #root {
-    margin: 0 54px;
-  }
-}
-@media screen and (max-width: 730px) {
-  #root {
     margin: 0;
   }
 }
