@@ -5,7 +5,7 @@ function MainPage() {
 
   return (
     <div className="mainPage">
-      <div className="mainPage__path"><a href='/#'>Главная</a> / <a href='/#'>Системы хранения</a> / <a href='/#'>Комплекты стелажных систем</a></div>
+      <div className="mainPage__path"><a href='/'>Главная</a> / <a href='/'>Системы хранения</a> / <a href='/'>Комплекты стелажных систем</a></div>
       <h1 className="mainPage__title">Комплекты стелажных систем</h1>
 
       <div className="mainPage__sorting-lists"><SortingOpts /></div>

@@ -1,6 +1,16 @@
 #root {
   margin: 0 216px;
 }
+@media screen and (max-width: 1575px) {
+  #root {
+    margin: 0 108px;
+  }
+}
+@media screen and (max-width: 973px) {
+  #root {
+    margin: 0;
+  }
+}
 .mainPage__path {
   margin: 32px 0;
 }
@@ -16,8 +26,8 @@
   border-radius: 34px;
 }
 .mainPage__title {
-width: 538px;
-height: 48px;
+max-width: 538px;
+max-height: 144px;
 left: 216px;
 top: 80px;
 font-family: SF Pro Display;
@@ -25,8 +35,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 48px;
-display: flex;
-align-items: center;
 font-feature-settings: 'ss04' on;
 color: #000000;
 border-radius: 34px;
@@ -98,7 +106,7 @@ select::-ms-expand {
   content: url("pic/arrow.png");
   display: flex;
   margin-top: -28px;
-  margin-left: 88%;
+  margin-left: 85%;
 }
 
 .item > img {
