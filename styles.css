@@ -1,7 +1,12 @@
 #root {
   margin: 0 216px;
 }
-@media screen and (max-width: 1189px) {
+@media screen and (max-width: 1575px) {
+  #root {
+    margin: 0 108px;
+  }
+}
+@media screen and (max-width: 1139px) {
   #root {
     margin: 0;
   }
