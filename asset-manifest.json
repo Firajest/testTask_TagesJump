@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/testTask_TagesJump/static/js/main.e0c16585.chunk.js",
-    "main.js.map": "/testTask_TagesJump/static/js/main.e0c16585.chunk.js.map",
+    "main.js": "/testTask_TagesJump/static/js/main.d0514205.chunk.js",
+    "main.js.map": "/testTask_TagesJump/static/js/main.d0514205.chunk.js.map",
     "runtime-main.js": "/testTask_TagesJump/static/js/runtime-main.56e3de24.js",
     "runtime-main.js.map": "/testTask_TagesJump/static/js/runtime-main.56e3de24.js.map",
     "static/js/2.4aafae3e.chunk.js": "/testTask_TagesJump/static/js/2.4aafae3e.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.56e3de24.js",
     "static/js/2.4aafae3e.chunk.js",
-    "static/js/main.e0c16585.chunk.js"
+    "static/js/main.d0514205.chunk.js"
   ]
 }
